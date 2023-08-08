@@ -6,22 +6,37 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-color: #D1C0A8;
+  width: 80%;
+  margin-top: 0px;
 }
 
 .wrapper {
-  margin: 0 auto;
-  width: 60%;
-  padding-bottom: 40px;
+  position: relative;
+  background: url(../images/backgrounds/architecture.jpg) repeat-y;
+  border: 0.5em solid #A0816C;
+  margin: auto;
+  left: 13%;
+  height: auto;
+  max-width: 900px;
+  min-width: 900px;
+  padding-bottom: 2em;
+}
+
+#title {
+  padding: 1em 0em 1em 11.5em;
 }
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  max-width: 500px;
+  min-width: 500px;
+  height: auto;
 }
 
 h1, h2 {
@@ -30,19 +45,20 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: .5em;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: .5em;
+  margin-bottom: -0.5em;
 }
 
 img {
@@ -61,26 +77,5 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-@media only screen and (max-width: 1042px) {
-  .wrapper {
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 784px) {
-  body {
-    font-size: 120%;
-  }
-  h1 {
-    font-size: 2.5em;
-  }
-  h2 {
-    font-size: 1em;
-  }
-  .wrapper {
-    width: 95%;
-  }
+  color: purple;
 }
